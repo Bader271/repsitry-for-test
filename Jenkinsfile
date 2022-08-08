@@ -54,10 +54,10 @@ pipeline {
             steps {
                 sh '''
 
-               mvn clean verify sonar:sonar \
-                 -Dsonar.projectKey=online-bader-B2D2 \
-                 -Dsonar.host.url=http://52.23.193.18 \
-                 -Dsonar.login=sqp_6d756fd0d809cf00d1c31f4f870fffd404db010a
+             mvn clean verify sonar:sonar \
+               -Dsonar.projectKey=online-bader-B2D2 \
+               -Dsonar.host.url=http://52.23.193.18 \
+               -Dsonar.login=sqp_6d756fd0d809cf00d1c31f4f870fffd404db010a
 
              '''
             }
