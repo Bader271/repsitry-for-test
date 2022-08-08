@@ -13,7 +13,7 @@ pipeline {
         AWS_EB_ENVIRONMENT = "Baderjenkinsexam-env"
 
         SONAR_IP = "52.23.193.18"
-        SONAR_TOKEN = "sqp_d780c4fbce371fd81d22660309692d27bb28c75f"
+        SONAR_TOKEN = "sqp_6d756fd0d809cf00d1c31f4f870fffd404db010a"
 
     }
 
